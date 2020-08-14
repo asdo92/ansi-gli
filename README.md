@@ -15,8 +15,9 @@ For Windows, you just have to follow the following steps for installation and us
   * Unzip the package.
   * Run `ansi-gli_86.exe` (for Windows 32-bits) or `ansi-gli_86_64.exe` (for Windows 64-bits).
   * You will see the app icon on the tray. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-tray.png))
-  * You can now use the following key combinations:
+  * You can now use the key combinations.
 
+List of combinations:
 
     - Alt + Z = <
     - Alt + X = >
