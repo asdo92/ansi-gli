@@ -1,0 +1,17 @@
+
+################################################
+# ANSI-GLI - ANSI Greater & Less in ISO        #
+#                                              #
+# Author: q3aql                                #
+# Contact: q3aql@protonmail.ch                 #
+# License: GPL v2.0                            #
+################################################
+Version v2.1
+
+* Installation steps:
+
+   1 - Install 'autokey' --> https://github.com/autokey/autokey/releases/
+   2 - Install 'python3' --> Installed by default on many Linux distributions.
+   3 - Inside the 'linux' folder, open a terminal and type the command:
+         $ make install
+   4 - Run autokey (It is recommended to configure it to start on login).
