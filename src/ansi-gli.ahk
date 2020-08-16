@@ -56,12 +56,12 @@ return
 Send, ~
 return
 ;
-;Map the AltGr + ' keys to show the "\" symbol (ANSI & UK ISO config)
+;Map the AltGr + - keys to show the "\" symbol (ANSI & UK ISO config)
 <^>!-::
 Send, \
 return
 ;
-;Map the AltGr + ¡ keys to show the "~" symbol (ANSI & UK ISO config)
+;Map the AltGr + "+" keys to show the "~" symbol (ANSI & UK ISO config)
 <^>!+::
 Send, ~
 return
