@@ -11,7 +11,7 @@ For Windows, you just have to follow the following steps for installation and us
 
 * **Installation and Use:**
   
-  * Download the package [ansi-gli-2.0.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.0/ansi-gli-2.0.zip)
+  * Download the package [ansi-gli-2.1.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.0/ansi-gli-2.1.zip)
   * Unzip the package.
   * Run `ansi-gli_86.exe` (for Windows 32-bits) or `ansi-gli_86_64.exe` (for Windows 64-bits).
   * You will see the app icon on the tray. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-tray.png))
@@ -37,16 +37,31 @@ In my case, using Ubuntu & Debian and setting the keyboard as Spanish ISO, you c
     - AltGr + Shift (Right) + Z = <
     - AltGr + Shift (Right) + X = >
 
+If you want to add more combinations or the ones mentioned do not work for you, you can follow these steps:
+
+* Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases))
+* Install `Python3` (Installed by default on many Linux distributions).
+* Install the command `make` (`sudo apt-get install make` on Ubuntu/Debian).
+* Download the package [ansi-gli-2.1.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.1/ansi-gli-2.1.zip)
+* Inside the `linux` folder, open a terminal and type the command: `make install`.
+* Run `autokey` (It is recommended to configure it to start on login).
+
+Now, you can use the following additional key combinations:
+
+    - Alt + Z = <
+    - Alt + X = >
+    - Alt + Esc = \
+
 ### How to fix on Mac:
 
 I don't know and I don't care.
 
 ### How to compile from source:
 
-  * First, install [AutoHoyKey](https://www.autohotkey.com/).
-  * Then, download the source from here.
-  * In the directory `src`, you have `ansi-gli.ahk`. Right click.
-  * Choose `Compile Script`. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-compile.png))
+* First, install [AutoHoyKey](https://www.autohotkey.com/).
+* Then, download the source from here.
+* In the directory `src`, you have `ansi-gli.ahk`. Right click.
+* Choose `Compile Script`. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-compile.png))
 
 ### External links:
 
