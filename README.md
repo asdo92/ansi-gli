@@ -39,7 +39,7 @@ In my case, using Ubuntu & Debian and setting the keyboard as Spanish ISO, you c
 
 If you want to add more combinations or the ones mentioned do not work for you, you can follow these steps:
 
-* Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases))
+* Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases)).
 * Install `Python3` (Installed by default on many Linux distributions).
 * Install the command `make` (`sudo apt-get install make` on Ubuntu/Debian).
 * Download the package [ansi-gli-2.1.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.1/ansi-gli-2.1.zip).
@@ -68,3 +68,4 @@ I don't know and I don't care.
 
 * [AutoHotKey homepage](https://www.autohotkey.com/)
 * [AutoHotKey documentation](https://www.autohotkey.com/docs/AutoHotkey.htm)
+* [autokey Github](https://github.com/autokey/autokey)
