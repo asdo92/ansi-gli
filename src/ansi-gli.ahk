@@ -61,11 +61,6 @@ return
 Send, \
 return
 ;
-;Map the AltGr + "+" keys to show the "~" symbol (ANSI & UK ISO config)
-<^>!+::
-Send, ~
-return
-;
 ;Map the AltGr + Esc keys to show the "\" symbol
 <^>!*Escape::
 Send, \
