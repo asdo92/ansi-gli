@@ -25,6 +25,18 @@ List of combinations:
     - AltGr + Shift (Left) + X = >
     - AltGr + Z = <
     - AltGr + X = >
+    
+German configuration extra key combinations:
+
+    - Alt + y = <
+    - AltGr + Shift (Left) + y = <
+    - AltGr + y = <
+
+French configuration extra key combinations:
+
+    - Alt + y = <
+    - AltGr + Shift (Left) + y = <
+    - AltGr + y = <
 
 ### How to fix on Linux:
 
