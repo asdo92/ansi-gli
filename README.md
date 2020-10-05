@@ -34,9 +34,9 @@ German configuration extra key combinations:
 
 French configuration extra key combinations:
 
-    - Alt + y = <
-    - AltGr + Shift (Left) + y = <
-    - AltGr + y = <
+    - Alt + w = <
+    - AltGr + Shift (Left) + w = <
+    - AltGr + w = <
 
 ### How to fix on Linux:
 
