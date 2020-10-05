@@ -11,7 +11,7 @@ For Windows, you just have to follow the following steps for installation and us
 
 * **Installation and Use:**
   
-  * Download the package [ansi-gli-2.1.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.1/ansi-gli-2.1.zip).
+  * Download the package [ansi-gli-2.2.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.2/ansi-gli-2.2.zip).
   * Unzip the package.
   * Run `ansi-gli_86.exe` (for Windows 32-bits) or `ansi-gli_86_64.exe` (for Windows 64-bits).
   * You will see the app icon on the tray. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-tray.png))
@@ -19,21 +19,18 @@ For Windows, you just have to follow the following steps for installation and us
 
 List of combinations:
 
-    - Alt + Z = <
-    - Alt + X = >
-    - AltGr + Shift (Left) + Z = <
-    - AltGr + Shift (Left) + X = >
-    - AltGr + Z = <
-    - AltGr + X = >
+    - Alt + z = <
+    - Alt + x = >
+    - AltGr + Shift (Left) + z = <
+    - AltGr + Shift (Left) + x = >
+    - AltGr + z = <
+    - AltGr + x = >
     
-German configuration extra key combinations:
+German/French configuration extra key combinations:
 
     - Alt + y = <
     - AltGr + Shift (Left) + y = <
     - AltGr + y = <
-
-French configuration extra key combinations:
-
     - Alt + w = <
     - AltGr + Shift (Left) + w = <
     - AltGr + w = <
@@ -44,25 +41,27 @@ In most Linux distributions, the keys necessary to type these symbols are alread
 
 In my case, using Ubuntu & Debian and setting the keyboard as Spanish ISO, you can write the symbol "<" and ">" with the following combinations natively:
 
-    - AltGr + Shift (Left) + Z = <
-    - AltGr + Shift (Left) + X = >
-    - AltGr + Shift (Right) + Z = <
-    - AltGr + Shift (Right) + X = >
+    - AltGr + Shift (Left) + z = <
+    - AltGr + Shift (Left) + x = >
+    - AltGr + Shift (Right) + z = <
+    - AltGr + Shift (Right) + x = >
 
 If you want to add more combinations or the ones mentioned do not work for you, you can follow these steps:
 
 * Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases)).
 * Install `Python3` (Installed by default on many Linux distributions).
 * Install the command `make` (`sudo apt-get install make` on Ubuntu/Debian).
-* Download the package [ansi-gli-2.1.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.1/ansi-gli-2.1.zip).
+* Download the package [ansi-gli-2.2.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.2/ansi-gli-2.2.zip).
 * Unzip the package.
 * Inside the `linux` folder, open a terminal and type the command: `make install`.
 * Run `autokey` (It is recommended to configure it to start on login).
 
 Now, you can use the following additional key combinations:
 
-    - Alt + Z = <
-    - Alt + X = >
+    - Alt + z = <
+    - Alt + x = >
+    - Alt + w = <
+    - Alt + y = <
     - Alt + Esc = \
 
 ### How to fix on Mac:
