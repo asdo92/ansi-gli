@@ -6,7 +6,7 @@
 ; # Contact: q3aql@protonmail.ch                 #
 ; # License: GPL v2.0                            #
 ; ################################################
-; Version v2.1
+; Version v2.2
 ;
 ; You've probably noticed that when you switch from an ISO keyboard 
 ; to an ANSI keyboard, the "<" and ">" keys are missing. When you 
