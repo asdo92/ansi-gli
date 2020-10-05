@@ -6,7 +6,7 @@
 # Contact: q3aql@protonmail.ch                 #
 # License: GPL v2.0                            #
 ################################################
-Version v2.1
+Version v2.2
 
 * Installation steps:
 
