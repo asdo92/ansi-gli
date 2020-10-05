@@ -65,3 +65,29 @@ return
 <^>!*Escape::
 Send, \
 return
+;
+;German and French configuration extra key combinations
+<^>!+w::
+Send, <
+return
+;
+<^>!w::
+Send, <
+return
+;
+!w::
+Send, <
+return
+;
+!y::
+Send, <
+return
+;
+<^>!+y::
+Send, <
+return
+;
+<^>!y::
+Send, <
+return
+;
