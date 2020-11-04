@@ -6,7 +6,7 @@
 ; # Contact: q3aql@protonmail.ch                 #
 ; # License: GPL v2.0                            #
 ; ################################################
-; Version v2.2
+; Version v2.3
 ;
 ; You've probably noticed that when you switch from an ISO keyboard 
 ; to an ANSI keyboard, the "<" and ">" keys are missing. When you 
@@ -89,5 +89,9 @@ return
 ;
 <^>!y::
 Send, <
+return
+;
+;Map Win + Alt to send AltGr command (for SK71 and SK64 keyboards)
+LWin & LAlt::RAlt
 return
 ;
