@@ -15,3 +15,12 @@ Version v2.2
    3 - Inside the 'linux' folder, open a terminal and type the command:
          $ make install
    4 - Run autokey (It is recommended to configure it to start on login).
+
+* Additional steps:
+
+   1 - If you use a keyboard without AltGr key (as SK71/SK64), you can use with
+       the 'win-to-altgr_xmodmap.sh' script running the following commands:
+          $ chmod +x win-to-altgr_xmodmap.sh
+          $ ./win-to-altgr_xmodmap.sh
+   2 - If you want restore the config, run again the same script.
+   3 - If you want the permanent config, load the script to auto-startup apps.
