@@ -6,7 +6,7 @@
 ; # Contact: q3aql@protonmail.ch                 #
 ; # License: GPL v2.0                            #
 ; ################################################
-; Version v2.3
+; Version v2.4
 ;
 ; You've probably noticed that when you switch from an ISO keyboard 
 ; to an ANSI keyboard, the "<" and ">" keys are missing. When you 
@@ -52,9 +52,9 @@ Send, \
 return
 ;
 ;Map the AltGr + ¡ keys to show the "~" symbol (Spanish ISO config)
-<^>!¡::
-Send, ~
-return
+;<^>!¡::
+;Send, ~
+;return
 ;
 ;Map the AltGr + - keys to show the "\" symbol (ANSI & UK ISO config)
 <^>!-::
