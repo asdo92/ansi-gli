@@ -10,10 +10,11 @@ You've probably noticed that when you switch from an ISO keyboard to an ANSI key
 For Windows, you just have to follow the following steps for installation and use.
 
 * **Installation and Use:**
-  
-  * Download the package [ansi-gli-2.3.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.3/ansi-gli-2.3.zip).
+
+  * Download the package [ansi-gli-2.4.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.4/ansi-gli-2.4.zip).
   * Unzip the package.
-  * Run `ansi-gli_86.exe` (for Windows 32-bits) or `ansi-gli_86_64.exe` (for Windows 64-bits).
+  * Run `ansi-gli_x86.exe` (for Windows 32-bits) or `ansi-gli_x86_64.exe` (for Windows 64-bits).
+  * **Optional**: If you want CapsLock disabled, run `ansi-gli-nocapslock_x86.exe` or `ansi-gli-nocapslock_x86_64.exe`.
   * You will see the app icon on the tray. ([Image](https://github.com/q3aql/ansi-gli/blob/master/images/ansi-gli-tray.png))
   * You can now use the key combinations.
 
@@ -26,7 +27,8 @@ List of combinations:
     - AltGr + z = <
     - AltGr + x = >
     - Win + Alt = AltGr (for keyboards without AltGr key as SK71/SK64)
-    
+    - CapsLock = Shift (with nocapslock version)
+
 German/French configuration extra key combinations:
 
     - Alt + y = <
@@ -52,7 +54,7 @@ If you want to add more combinations or the ones mentioned do not work for you, 
 * Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases)).
 * Install `Python3` (Installed by default on many Linux distributions).
 * Install the command `make` (`sudo apt-get install make` on Ubuntu/Debian).
-* Download the package [ansi-gli-2.3.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.3/ansi-gli-2.3.zip).
+* Download the package [ansi-gli-2.4.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.4/ansi-gli-2.4.zip).
 * Unzip the package.
 * Inside the `linux` folder, open a terminal and type the command: `make install`.
 * Run `autokey` (It is recommended to configure it to start on login).
@@ -65,6 +67,7 @@ Now, you can use the following additional key combinations:
     - Alt + y = <
     - Alt + Esc = \
     - Win = AltGr (with win-to-altgr_xmodmap.sh script)
+    - CapsLock = Shift (with disable-caplock_xmodmap.sh script)
 
 ### How to fix on Mac:
 
