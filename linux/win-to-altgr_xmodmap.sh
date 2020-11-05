@@ -17,15 +17,13 @@ if [ -f ${xmodmap_config_file} ] ; then
 	sleep 2
 	restore_key=$(cat ${xmodmap_config_file})
 	xmodmap -e "keycode ${restore_key} = Super_L"
-	rm -rf ${HOME}/.Xmodmap
 	rm -rf ${xmodmap_config_file}
 	echo "* Restored!"
 else
 	echo "* Creating mapping of Win-Key to AltGr-Key..."
 	sleep 2
-	win_key_detect=$(xmodmap -pke | grep Super_L | grep keycode | head -1 | cut -d " " -f 2)
+	win_key_detect=$(xmodmap -pke | grep Super_L | tr -s " " | grep keycode | head -1 | cut -d " " -f 2)
 	echo ${win_key_detect} > ${xmodmap_config_file}
 	xmodmap -e "keycode ${win_key_detect} = ISO_Level3_Shift"
-	echo "keycode ${win_key_detect} = ISO_Level3_Shift" > ${HOME}/.Xmodmap
 	echo "* Created!"
 fi
