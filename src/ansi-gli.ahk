@@ -19,54 +19,54 @@
 Send, <
 return
 ;
-;Map the Alt + X keys to show the ">" symbol
+; Map the Alt + X keys to show the ">" symbol
 !x::
 Send, >
 return
 ;
-;Map the AltGr + Shift (Left) + Z keys to show the "<" symbol
+; Map the AltGr + Shift (Left) + Z keys to show the "<" symbol
 <^>!+z::
 Send, <
 return
 ;
-;Map the AltGr + Shift (Left) + X keys to show the ">" symbol
+; Map the AltGr + Shift (Left) + X keys to show the ">" symbol
 <^>!+x::
 Send, >
 return
 ;
-;Map the AltGr + Z keys to show the "<" symbol
+; Map the AltGr + Z keys to show the "<" symbol
 <^>!z::
 Send, <
 return
 ;
-;Map the AltGr + Z keys to show the ">" symbol
+; Map the AltGr + Z keys to show the ">" symbol
 <^>!x::
 Send, >
 return
 ;
 ; If you use a 60% Keyboard, maybe need the following combinations:
 ;
-;Map the AltGr + ' keys to show the "\" symbol (Spanish & Italian ISO config)
+; Map the AltGr + ' keys to show the "\" symbol (Spanish & Italian ISO config)
 <^>!'::
 Send, \
 return
 ;
-;Map the AltGr + ¡ keys to show the "~" symbol (Spanish ISO config)
+; Map the AltGr + ¡ keys to show the "~" symbol (Spanish ISO config)
 ;<^>!¡::
 ;Send, ~
 ;return
 ;
-;Map the AltGr + - keys to show the "\" symbol (ANSI & UK ISO config)
+; Map the AltGr + - keys to show the "\" symbol (ANSI & UK ISO config)
 <^>!-::
 Send, \
 return
 ;
-;Map the AltGr + Esc keys to show the "\" symbol
+; Map the AltGr + Esc keys to show the "\" symbol
 <^>!*Escape::
 Send, \
 return
 ;
-;German and French configuration extra key combinations
+; German and French configuration extra key combinations
 <^>!+w::
 Send, <
 return
@@ -91,7 +91,7 @@ return
 Send, <
 return
 ;
-;Map Win + Alt to send AltGr command (for SK71 and SK64 keyboards)
+; Map Win + Alt to send AltGr command (for SK71 and SK64 keyboards)
 LWin & LAlt::RAlt
 return
 ;
