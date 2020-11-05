@@ -6,7 +6,7 @@
 # Contact: q3aql@protonmail.ch                 #
 # License: GPL v2.0                            #
 ################################################
-Version v2.2
+Version v2.3
 
 * Installation steps:
 
@@ -16,11 +16,20 @@ Version v2.2
          $ make install
    4 - Run autokey (It is recommended to configure it to start on login).
 
-* Additional steps:
+* Additional steps (Map AltGr on Win-Key):
 
    1 - If you use a keyboard without AltGr key (as SK71/SK64), you can use with
        the 'win-to-altgr_xmodmap.sh' script running the following commands:
           $ chmod +x win-to-altgr_xmodmap.sh
           $ ./win-to-altgr_xmodmap.sh
+   2 - If you want restore the config, run again the same script.
+   3 - If you want the permanent config, load the script to auto-startup apps.
+
+* Additional steps (Disable CapsLock):
+
+   1 - If you prefer use the keyboard without CapsLock (only Shift), you can use
+       the 'disable-caplock_xmodmap.sh' script running the following commands:
+          $ chmod +x disable-caplock_xmodmap.sh
+          $ ./disable-caplock_xmodmap.sh
    2 - If you want restore the config, run again the same script.
    3 - If you want the permanent config, load the script to auto-startup apps.
