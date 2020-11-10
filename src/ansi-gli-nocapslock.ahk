@@ -95,6 +95,16 @@ return
 LWin & LAlt::RAlt
 return
 ;
+; Map Alt + - to show ? simbol (for SK71 keyboard)
+!-::
+Send, ?
+return
+;
+; Map Alt + '+' to show ¿ simbol (for SK71 keyboard)
+LAlt & +::
+Send, ¿
+return
+;
 ; Disable CapsLock (map CapsLock to Shift)
 SetCapsLockState, AlwaysOff
 CapsLock::LShift
