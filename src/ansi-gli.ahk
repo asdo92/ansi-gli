@@ -6,7 +6,7 @@
 ; # Contact: q3aql@protonmail.ch                 #
 ; # License: GPL v2.0                            #
 ; ################################################
-; Version v2.5
+; Version v2.6
 ;
 ; You've probably noticed that when you switch from an ISO keyboard 
 ; to an ANSI keyboard, the "<" and ">" keys are missing. When you 
@@ -102,6 +102,16 @@ return
 ;
 ; Map Alt + '+' to show ¿ simbol (for SK71 keyboard)
 LAlt & +::
+Send, ¿
+return
+;
+; Map Alt + c to show ? simbol (for SK71 keyboard)
+!c::
+Send, ?
+return
+;
+; Map Alt + v to show ¿ simbol (for SK71 keyboard)
+!v::
 Send, ¿
 return
 ;
