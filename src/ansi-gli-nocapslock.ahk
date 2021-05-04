@@ -120,6 +120,11 @@ return
 Send, \
 return
 ;
+; Map Win + Esc to show blacklash
+LWin & Escape::
+Send, \
+return
+;
 ; Disable CapsLock (map CapsLock to Shift)
 SetCapsLockState, AlwaysOff
 CapsLock::LShift

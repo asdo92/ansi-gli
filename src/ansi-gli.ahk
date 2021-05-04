@@ -119,4 +119,9 @@ return
 !'::
 Send, \
 return
-;;
+;
+; Map Win + Esc to show blacklash
+LWin & Escape::
+Send, \
+return
+;
