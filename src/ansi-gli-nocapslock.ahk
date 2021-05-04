@@ -115,8 +115,14 @@ return
 Send, ¿
 return
 ;
+; Map Alt + ' to show blacklash
+!'::
+Send, \
+return
+;
 ; Disable CapsLock (map CapsLock to Shift)
 SetCapsLockState, AlwaysOff
 CapsLock::LShift
 return
 ;
+

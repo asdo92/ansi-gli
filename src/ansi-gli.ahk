@@ -115,3 +115,8 @@ return
 Send, ¿
 return
 ;
+; Map Alt + ' to show blacklash
+!'::
+Send, \
+return
+;;
