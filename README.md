@@ -11,7 +11,7 @@ For Windows, you just have to follow the following steps for installation and us
 
 * **Installation and Use:**
 
-  * Download the package [ansi-gli-2.6.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.6/ansi-gli-2.6.zip).
+  * Download the package [ansi-gli-2.7.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.7/ansi-gli-2.7.zip).
   * Unzip the package.
   * Run `ansi-gli_x86.exe` (for Windows 32-bits) or `ansi-gli_x86_64.exe` (for Windows 64-bits).
   * **Optional**: If you want CapsLock disabled, run `ansi-gli-nocapslock_x86.exe` or `ansi-gli-nocapslock_x86_64.exe`.
@@ -30,6 +30,8 @@ List of combinations:
     - Alt + + = ¿
     - Alt + c = ? 
     - Alt + v = ¿ 
+    - Alt + ' = \
+    - Win + Esc = \
     - Win + Alt = AltGr (for keyboards without AltGr key as SK71/SK64)
     - CapsLock = Shift (with nocapslock version)
 
@@ -58,7 +60,7 @@ If you want to add more combinations or the ones mentioned do not work for you, 
 * Install `autokey` for Linux ([from here](https://github.com/autokey/autokey/releases)).
 * Install `Python3` (Installed by default on many Linux distributions).
 * Install the command `make` (`sudo apt-get install make` on Ubuntu/Debian).
-* Download the package [ansi-gli-2.6.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.6/ansi-gli-2.6.zip).
+* Download the package [ansi-gli-2.7.zip](https://github.com/q3aql/ansi-gli/releases/download/v2.7/ansi-gli-2.7.zip).
 * Unzip the package.
 * Inside the `linux` folder, open a terminal and type the command: `make install`.
 * Run `autokey` (It is recommended to configure it to start on login).
