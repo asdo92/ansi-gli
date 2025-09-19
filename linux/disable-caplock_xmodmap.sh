@@ -3,7 +3,7 @@
 ##################################
 # Script to disable CapsLock     #
 #                                #
-# Author: asdo92@duck.com    #
+# Author: asdo92@duck.com        #
 ##################################
 
 # Variables
