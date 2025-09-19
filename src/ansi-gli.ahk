@@ -2,8 +2,8 @@
 ; ################################################
 ; # ANSI-GLI - ANSI Greater & Less in ISO        #
 ; #                                              #
-; # Author: q3aql                                #
-; # Contact: q3aql@protonmail.ch                 #
+; # Author: asdo92                                #
+; # Contact: asdo92@duck.com                 #
 ; # License: GPL v2.0                            #
 ; ################################################
 ; Version v2.7
