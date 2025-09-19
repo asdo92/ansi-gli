@@ -3,7 +3,7 @@
 ##################################
 # Script to disable CapsLock     #
 #                                #
-# Author: q3aql@protonmail.ch    #
+# Author: asdo92@duck.com    #
 ##################################
 
 # Variables
